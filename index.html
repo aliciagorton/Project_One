@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>x
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <!-- bulma -->
+  <link rel="stylesheet" href="assets/bulma/bulma-0.9.0/css/bulma-rtl.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+  <!-- ajax -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" rel="stylesheet" />
+
+  <title>Chuck Norris Fan Page </title>
+</head>
+
+<body>
+  <!-- Upper Container for Flag -->
+  <section id="upperCont">
+    <!-- header -->
+    <header>
+      <h1 id="header" class="columns  is-size-1 is is-centered">Chuck Norris, The Man, The Myth, The Legend! </h1>
+    </header>
+    <!-- main container -->
+    <div class="container">
+      <div class="rowTop">
+        <div class="welcome">
+          <p id="intro">This page will blow your mind with explosive content from our lord and savior, the one the only
+            CHUCK NORRIS!!
+          </p>
+          <br>
+          <p id="HowtoContent" class="subtitle">
+            Scroll to the content you want to enjoy and press our buttons! Generate Jokes, Movies, and Gifs with the
+            ultimate ChuckNess!!!!!
+          </p>
+        </div>
+      </div>
+
+      <section class="section">
+        <div class="container is-vcentered is-3">
+          <!-- Start Carousel -->
+          <div id="carousel-demo" class="carousel is-vcentered" slides-To-Show="1">
+            <div class="item-1">
+              <img src="assets/img/Chuck-Norris.jpg" alt="Chuck and explosions">
+            </div>
+            <div class="item-2 mx-2">
+              <img src="assets/img/chuck-norris-15.jpg" alt="Chuck Norris">
+            </div>
+            <div class="item-3 mx-2">
+              <img src="assets/img/chuck-and-guns.webp" alt="Chuck Norris and his guns">
+            </div>
+            <div class="item-4 mx-2">
+              <img src="assets/img/chuck1.jpg" alt="Chuck Norris and his guns">
+            </div>
+            <div class="item-5 mx-2">
+              <img src="assets/img/chuck2.jpg" alt="Chuck Norris and his guns">
+            </div>
+            <div class="item-6 mx-2">
+              <img src="assets/img/chuck3.jpg" alt="Chuck Norris and his guns">
+            </div>
+            <div class="item-7 mx-2">
+              <img src="assets/img/Dont-Mess-Chuck.webp" alt="Chuck Norris and his guns">
+            </div>
+            <div class="item-8 mx-2">
+              <img src="assets/img/Leave-Your-Hat.webp" alt="Chuck Norris and his guns">
+            </div>
+          </div>
+        </div>
+      </section>
+  </section>
+  <!-- End upper Container -->
+  <br>
+  <!-- Start Chuck Movie Generator -->
+
+  <div id="movieDiv" class="container">
+    <div class="Generator is-flex is-horizontal-center" id="movieGen">
+      <h1 class="text-center" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Chuck Movie
+        Generator
+      </h1>
+      <br>
+    </div>
+    <!-- button -->
+    <div class="is-flex is-horizontal-center" style="padding-top: 15px;" id="movie-btn">
+      <button class="button is-danger" id="movie-search">Movies the Chuck has blessed you with </button>
+    </div>
+    <!-- display of movie -->
+    <div>
+      <div class="is-flex is-horizontal-center" id="movie-search" style="padding-top: 15px;">
+      </div>
+      <div id="movieCont" class="is-hidden is-flex is-horizontal-center"
+        style="padding-top: 15px; padding-left: 10%; padding-right: 10%;">
+        <h3 id="movie-view" class="is-flex is-horizontal-center"></h3>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <!-- start Chuck Joke Section -->
+  <div class="container">
+    <div id="jokesCont" class="container is-horizontal-center is-mobile">
+      <div class="is-two-fifths is-vcentered is-centered">
+        <div class="Generator" id="joke">
+          <h1 class="text-center" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Chuck
+            Norris Jokes Generator
+          </h1>
+          <!-- image -->
+          <div class="card-content is-flex is-horizontal-center" style="padding-top: 15px;">
+            <img src="assets/images/chucksmiles.jpg" style="width:40%">
+          </div>
+          <div id="cont" class="is-centered ">
+            <div id="quoteCont" style="display: none;">
+              <h3 id="quote" class="text-center"></h3>
+            </div>
+          </div>
+          <!-- button -->
+          <div id="JokeBtn" class=" is-flex is-horizontal-center" style="padding-top: 15px;">
+            <button class="button is-danger is-animated-pulse" id="joke-search">Get some Dangerous Chuckles </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Chuck Joke Section -->
+    <!-- Start Gif Search area -->
+    <div id="gifCont" class=" is-flex is-horizontal-center">
+      <div id="GifBtn">
+        <button class="button is-danger" id="gif-search">Danger Gifs are Here! <i class="fa fa-search"></i></button>
+      </div>
+    </div>
+    <div id="gif-images" class="is-flex is-horizontal-center">
+    </div>
+    <!-- end gif search and display -->
+  </div>
+  </div>
+  <footer id="footer" class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Bulma</strong> by:
+        <!-- collaborators -->
+        <a href="https://github.com/chadalac27" target="_blank">Chad Coleman</a>,
+        <a href="https://github.com/audluc" target="_blank">Audra Dagenais</a>, and
+        <a href="https://github.com/aliciagorton" target="_blank">Alicia Gorton</a>
+        <!-- repository -->
+        Link to our: <a href="https://github.com/The-Magic-Dragon/The-Magic-D-Project-.git">Project Repository</a>
+        <!-- copy right -->
+        <a href="https://jgthms.com"></a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">Triology</a>. <p>Copyright © 2020 All Rights Reserved.</p>
+      </p>
+  
+    </div>
+  
+  </footer>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
+  <script>
+  bulmaCarousel.attach('#carousel-demo', {
+    slidesToScroll: 1,
+    slidesToShow: 4,
+    pagination: false,
+    loop: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+
+</body>
+</html>
