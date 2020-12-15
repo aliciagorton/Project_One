@@ -5,9 +5,9 @@
 Chuck Norris Fan Page allows the user to interact with information about Chuck Norris. This website is the ultimate Chuck Norris fanpage, where a user can see Facts, Film history and much more. Using a combination of html, css, and javascript a user is able to interact with the website.  
 
 ### Collaborators
-<a href="https://github.com/aliciagorton">Alicia Gorton</a>
+<a href="https://github.com/aliciagorton">Alicia Gorton</a> -
 <a href="https://githubt.com/chadalac27">Chad Coleman</a> -
-<a href="https://github.com/audluc">Audra Dagenais</a> -
+<a href="https://github.com/audluc">Audra Dagenais</a> 
 
 
 ### Interface/Developement 
