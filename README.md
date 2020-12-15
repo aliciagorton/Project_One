@@ -1,4 +1,6 @@
- # Project 1 Chuck Norris, The Man, The Myth, The Legend![![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ # Project 1 MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Chuck Norris, The Man, The Myth, The Legend! 
 
 Chuck Norris Fan Page allows the user to interact with information about Chuck Norris. This website is the ultimate Chuck Norris fanpage, where a user can see Facts, Film history and much more. Using a combination of html, css, and javascript a user is able to interact with the website.  
 
@@ -8,7 +10,7 @@ Chuck Norris Fan Page allows the user to interact with information about Chuck N
 <a href="https://github.com/audluc">Audra Dagenais</a> -
 
 
-## Interface/Developement 
+### Interface/Developement 
 #### Tech/Framework used:
 * HTMl
 * CSS 
@@ -26,14 +28,14 @@ Chuck Norris Fan Page allows the user to interact with information about Chuck N
 * https://codepen.io/akuma4114/pen/vYGLbNg
 * https://imdb-api.com/en/API/Posters/k_bU3y02ls/chuck_movie_id
 
-## Challenges 
+### Challenges 
 * Time management - Staying on deadlines of milestones - Project management 
 * Github merging - learning about gitignore/ Ds.store 
 * Coding main,js file - used a lot of resources TA’s, AskBCS Learning Assistantand and Tutors. 
 * Coding in a new framework (BULMA) and understanding how to use it with CSS - A lot of google FU 
 
 
-## Upcoming/Future Features
+### Upcoming/Future Features
 * Future Features: 
     * Additional API’s for more Chuck.
     * Improve on the user experience: 
@@ -59,11 +61,11 @@ Chuck Norris Fan Page allows the user to interact with information about Chuck N
 ### The following links to the application:
 
 #### REPOSITORY LOCATIONS
-##### Please read, this project was Forked from the main branch. This branch only reflects my changes since the project ended. Majority of my commits can be seen at the Repository Link below. 
+##### Please read, this project was forked from the main branch. This branch only reflects my changes since the project ended. Majority of my commits can be seen at the Repository Link below. 
 
 * Deployment Link: https://the-magic-dragon.github.io/The-Magic-D-Project-/
 * Repository Link: https://github.com/The-Magic-Dragon/The-Magic-D-Project-.git
-* For: Trilogy - Full Stack Development Program UC Davis Cohort 2020
+
 
 ## License
 
